@@ -1,0 +1,11 @@
+name = "cfw-ts-esbuild"
+account_id = ""
+route = ""
+zone_id = ""
+workers_dev = true
+
+type = "webpack"
+webpack_config = "webpack.config.js"
+
+[env.dev.vars]
+DEFAULT_GREETING = "world"
